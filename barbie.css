@@ -82,21 +82,31 @@ nav h1{
     text-align: center;
     padding: 1rem;
     text-shadow: 0  0.2rem   0.3rem white ;
+    
 }
 #banner img{
     width:100%;
 }
 
-#nav menu li{
+ /* div #navbar{
     position: sticky;
-    top: 10rem;
-    z-index: 1;
-}
+    top:10rem;
+} */
+
 menu{
     text-align: center;
     border: 0.2rem #fe46a5 solid;
     /* position: sticky;
-    top:50rem; */
+    top: 1rem; */
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:#fe46a5;
+    font-weight: 800;
+    text-decoration: underline;
 }
 li{
     display:inline-block;
@@ -104,17 +114,14 @@ li{
     font-family: Oooh Baby;
     padding: 1rem 4rem;
 }
-li:hover{
-    color:#fe46a5;
-    font-weight: 800;
-    text-decoration: underline;
-}
 #content h3{
     padding: 2rem;
     font-size: 4rem;
     font-family: Luxurious Script;
     color: #fe46a5;
     font-weight: 800;
+    /* position: sticky; 
+    top:20rem; */
 }
 #content p{
     padding: 0 1rem;
@@ -126,6 +133,7 @@ img.display {
     width:45%;
     padding:1.5rem;
 }
+
 img.display:hover{
     position: relative;
     top:-0.5rem;
@@ -147,6 +155,7 @@ footer p{
 .textbox{
     /* text-align: center; */
     width: 40%;
+    font-family: Oooh Baby;
     margin: 0.5rem auto;
     background-color: #f7b1d5;
     border-radius: 2rem;
@@ -164,6 +173,7 @@ footer p{
 } */
 .button{
     width: 10%;
+    font-family: Oooh Baby;
     text-align: center;
     background-color: #fe46a5;
     color: white;
@@ -185,3 +195,10 @@ footer p{
     padding: 0.5rem 1rem; 
     margin: 0.5rem auto;
 }
+
+/* @media screen and (min-width: 768px){
+img.display
+#navbar menu{
+    display: inline-block;
+}
+} */
